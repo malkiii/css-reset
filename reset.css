@@ -47,7 +47,9 @@ button {
 img,
 video,
 canvas,
-iframe {
+picture,
+iframe,
+svg {
   display: block;
   max-width: 100%;
   height: auto;
