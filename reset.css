@@ -49,8 +49,7 @@ img,
 video,
 canvas,
 picture,
-iframe,
-svg {
+iframe {
   display: block;
   max-width: 100%;
   height: auto;
