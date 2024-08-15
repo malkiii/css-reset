@@ -37,11 +37,15 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-a,
-button {
+a {
   color: inherit;
-  cursor: pointer;
   text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  line-height: normal;
 }
 
 img,
