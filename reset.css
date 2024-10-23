@@ -13,11 +13,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-  scrollbar-gutter: stable;
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -33,8 +28,6 @@ body {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5;
-
-  min-height: 100dvh;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -44,9 +37,7 @@ h3 {
   text-wrap: balance;
 }
 
-p,
-li,
-figcaption {
+p {
   max-width: 65ch;
   text-wrap: pretty;
 }
@@ -72,9 +63,9 @@ iframe {
 
 ol,
 ul {
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 pre,
@@ -83,8 +74,8 @@ code {
 }
 
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  border-collapse: collapse;
 }
 
 input {
